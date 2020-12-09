@@ -1,0 +1,27 @@
+﻿@model laohaldussüsteemTsausova.Models.IndexViewModel
+@{
+    ViewBag.Title = "Управление аккаунта";
+}
+
+<h2>@ViewBag.Title.</h2>
+
+<p class="text-success">@ViewBag.StatusMessage</p>
+<div>
+    <h4>Изменить настройки своего аккаунта</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>Пароль:</dt>
+        <dd>
+            [
+            @if (Model.HasPassword)
+            {
+                @Html.ActionLink("Изменить свой пароль", "ChangePassword")
+            }
+            else
+            {
+                @Html.ActionLink("Create", "SetPassword")
+            }
+            ]
+        </dd>       
+    </dl>
+</div>

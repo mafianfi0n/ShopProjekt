@@ -1,0 +1,95 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+body {
+    font-size: 13px;
+    font-family: Verdana, Arial, Helvetica, Sans-Serif;
+    background-color: #f7f7fa;
+    padding-left: 40px;
+}
+
+nav {
+    display: block;
+}
+
+.menu {
+    padding-left: 10px;
+}
+
+    .menu ul {
+        list-style: none;
+    }
+
+    .menu li {
+        display: inline;
+    }
+
+    .menu a:hover {
+        color: red;
+    }
+
+table {
+    vertical-align: middle;
+    text-align: left;
+}
+
+.header {
+    font-weight: bold;
+}
+
+td {
+    padding-right: 10px;
+}
+
+input {
+    width: 150px;
+}
+body {
+    background: url(../Content/back.jpg) no-repeat 0px 0px;
+    background-size: cover;
+    position: relative;
+    font-family: URW Chancery L, cursive;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+a.button7 {
+    margin-left:20%;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    padding: .8em 1em calc(.8em + 3px);
+    border-radius: 3px;
+    background: rgb(64,199,129);
+    box-shadow: 0 -3px rgb(53,167,110) inset;
+    transition: 0.2s;
+}
+
+    a.button7:hover {
+        background: rgb(53, 167, 110);
+    }
+
+    a.button7:active {
+        background: rgb(33,147,90);
+        box-shadow: 0 3px rgb(33,147,90) inset;
+    }
